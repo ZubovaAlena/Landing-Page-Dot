@@ -30,20 +30,37 @@ a{
 .col-6 {
     flex-basis: 49.9998%;
 }
+.col-7 {
+    flex-basis: 58.3331%;
+}
+.col-8 {
+    flex-basis: 66.6664%;
+}
+.col-9 {
+    flex-basis: 74.9997%;
+}
+.col-10 {
+    flex-basis: 83.3333%;
+}
+.col-11 {
+    flex-basis: 91.6667%;
+}
 .col-12 {
     flex-basis: 100%;
 }
-
 .container {
     width: 1170px;
     margin-left: auto;
     margin-right: auto;
 }
-.head {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.head{
     display: flex;
     min-height: 100px;
     flex-direction: row;
-    justify-content: flex-end;
     align-items: center;
 }
 a {
@@ -53,12 +70,8 @@ header .menu {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    width: 900px;
-    padding-right: 30px;
-    padding-left: 70px;
 }
-
-.main1 {
+.block_intone {
     display: flex;
     min-height: 400px;
     flex-direction: row;
@@ -66,34 +79,29 @@ header .menu {
     align-items: center;
     background-color: rgba(220, 220, 220, 0.2);
 }
-.container_main1 {
-    display: flex;
-    flex-direction: column;
-    margin-right: 100px;
-}
-.main2 {
+.block_product {
     display: flex;
     flex-direction: column;
     min-height: 400px;
     text-align: center;
     padding-top: 50px;
 }
-.main2 h1 {
-    background-image: url("icon/trap.png");
+.block_product h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
     margin: 10px auto;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 190px, cover;
+    background-size: 170px, cover;
 }
-.main2 .sound_1 {
+.block_product .sound {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.main2 img{
+.block_product img{
     height: 70px;
     width: 70px;
 }
@@ -104,175 +112,148 @@ header .menu {
     color: white;
     width: 40%;
 }
-.main3 {
+.block_details {
     display: flex;
     min-height: 400px;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
     background-color: rgba(220, 220, 220, 0.2);
 }
-.main3 h1 {
-    background-image: url("icon/trap.png");
+.block_details h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 190px, cover;
+    background-size: 170px, cover;
 }
-.container_main3 {
+.block_benefits {
     display: flex;
-    flex-direction: column;
-    padding-right: 50px;
-    padding-left: 15px;
-}
-.main4 {
-    display: flex;
-    min-height: 700px;
+    min-height: 600px;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
 }
-.main4 h1 {
-    background-image: url("icon/trap.png");
+.block_benefits h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 190px, cover;
+    background-size: 170px, cover;
 }
-.container_main4 {
-    display: flex;
-    flex-direction: column;
-    padding-left: 45px;
-}
-.main5 {
+.block_our_new{
     display: flex;
     min-height: 400px;
+    flex-direction: row;
     justify-content: center;
     background-color: rgba(220, 220, 220, 0.2);
 }
-.main5 h1 {
-    background-image: url("icon/trap.png");
+.block_our_new h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
     margin: 10px auto;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 180px, cover;
+    background-size: 170px, cover;
 }
-.container_main5 {
-    display: flex;
-    flex-direction: column;
-}
-.main5 .photos {
+.block_our_new .photos {
     display: flex;
     flex-direction: row;
-    padding-left: 200px;
-    padding-top: 100px;
+    margin-left: 200px;
+    margin-top: 50px;
 }
-.main5 .head1 {
+.block_our_new .head1 {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
-.main5 img {
+.block_our_new img {
     width: 90px;
     height: 90px;
 }
-.main6 {
+.block_reviews {
     display: flex;
     min-height: 400px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.main6 h1 {
-    background-image: url("icon/trap.png");
-    background-repeat: no-repeat;
-    box-sizing: border-box;
-    margin: 10px auto;
-    padding: 5px;
-    background-clip: padding-box;
-    background-origin: border-box;
-    background-size: 210px, cover;
-}
-.container_main6 {
-    display: flex;
     flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
-.main6 img {
-    width: 70px;
-    height: 70px;
-    padding-left: 255px;
-}
-.main7 {
-    display: flex;
-    min-height: 200px;
-    flex-direction: column;
-    justify-content: center;
-    background-color: rgba(220, 220, 220, 0.2);
-}
-.main7 h1 {
-    background-image: url("icon/trap.png");
+.block_reviews h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
+    background-position: 120px;
     box-sizing: border-box;
     margin: 10px auto;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 140px, cover;
+    background-size: 190px, cover;
 }
-.container_main7 {
+.block_reviews img {
+    width: 70px;
+    height: 70px;
+}
+.block_featured {
     display: flex;
+    min-height: 200px;
     flex-direction: column;
-    align-items: center;
+    background-color: rgba(220, 220, 220, 0.2);
+
 }
-.main7 .company {
+.block_featured h1 {
+    background-image: url("icon/Rectangle_12.png");
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-clip: padding-box;
+    background-origin: border-box;
+    background-size: 130px, cover;
+}
+.block_featured img {
+    width: 120px;
+    height: auto;
+}
+.block_featured .company {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
-.main7 img {
-    width: 120px;
-    height: 30px;
-}
-.main8 {
+.block_sabscrabe {
     display: flex;
     min-height: 200px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-
 }
-.main8 h1 {
-    background-image: url("icon/trap.png");
+.block_sabscrabe h1 {
+    background-image: url("icon/Rectangle_12.png");
     background-repeat: no-repeat;
     box-sizing: border-box;
     padding: 5px;
     background-clip: padding-box;
     background-origin: border-box;
-    background-size: 200px, cover;
+    background-size: 185px, cover;
 }
-.footer img {
+.input {
+    text-align: center;
+}
+.contact img {
     height: 30px;
     width: 30px;
 }
 .firm {
     display: flex;
     flex-direction: column;
-    width: 30%;
 }
 .networks {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
-.footer_contener {
+.footer {
     background-color: rgba(220, 220, 220, 0.2);
     display: flex;
     min-height: 300px;
@@ -290,4 +271,49 @@ header .menu {
     justify-content: space-around;
     padding-top: 50px;
     order: -1;
+}
+a.facebook {
+     background: url(icon/social_media_logo_facebook_icon-icons.com_59059.png);
+     display: block;
+     width: 48px;
+     height: 48px;
+ }
+a.facebook:hover {
+    background: url(icon/facebook_social_media_logo_icon-icons.com_59056.png);
+}
+a.twitter {
+    background: url(icon/social_media_logo_twitter_icon-icons.com_59061.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+a.twitter:hover {
+    background: url(icon/twitter_social_media_logo_icon-icons.com_59057.png);
+}
+a.google {
+    background: url(icon/social_media_logo_google_plus_icon-icons.com_59077.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+a.google:hover {
+    background: url(icon/google_plus_social_media_logo_icon-icons.com_59078.png);
+}
+a.vimeo {
+    background: url(icon/social_media_logo_vimeo_icon-icons.com_59090.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+a.vimeo:hover {
+    background: url(icon/vimeo_social_media_logo_brand_icon-icons.com_61742.png);
+}
+a.pinterest {
+    background: url(icon/social_media_logo_pinterest_icon-icons.com_59072.png);
+    display: block;
+    width: 48px;
+    height: 48px;
+}
+a.pinterest:hover {
+    background: url(icon/pinterst_social_media_logo_icon-icons.com_59067.png);
 }
