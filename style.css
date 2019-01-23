@@ -438,7 +438,7 @@ a.pinterest:hover {
     }
 
     .container {
-        width: 759px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -465,7 +465,7 @@ a.pinterest:hover {
         justify-content: space-around;
     }
     .head img {
-        width: 60px;
+        width: 90px;
         height: 30px;
     }
 
@@ -555,7 +555,7 @@ a.pinterest:hover {
         padding: 5px;
         background-clip: padding-box;
         background-origin: border-box;
-        background-size: 110px, cover;
+        background-size: 108px, cover;
     }
 
     .block_our_new {
@@ -574,7 +574,7 @@ a.pinterest:hover {
         padding: 5px;
         background-clip: padding-box;
         background-origin: border-box;
-        background-size: 110px, cover;
+        background-size: 107px, cover;
     }
 
     .block_our_new .photos {
@@ -606,7 +606,7 @@ a.pinterest:hover {
     .block_reviews h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 270px;
+        background-position: 267px;
         box-sizing: border-box;
         margin: 10px auto;
         padding: 5px;
@@ -631,12 +631,12 @@ a.pinterest:hover {
     .block_featured h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 255px;
+        background-position: 253px;
         box-sizing: border-box;
         margin: 10px auto;
         background-clip: padding-box;
         background-origin: border-box;
-        background-size: 90px, cover;
+        background-size: 85px, cover;
     }
 
     .block_featured img {
@@ -662,12 +662,12 @@ a.pinterest:hover {
     .block_sabscrabe h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 225px;
+        background-position: 220px;
         box-sizing: border-box;
         padding: 5px;
         background-clip: padding-box;
         background-origin: border-box;
-        background-size: 120px, cover;
+        background-size: 118px, cover;
     }
 
     .input {
@@ -821,7 +821,7 @@ a.pinterest:hover {
     }
 
     .container {
-        width: 990px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -986,7 +986,7 @@ a.pinterest:hover {
     .block_reviews h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 120px;
+        background-position: 115px;
         box-sizing: border-box;
         margin: 10px auto;
         padding: 5px;
@@ -1011,7 +1011,7 @@ a.pinterest:hover {
     .block_featured h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 105px;
+        background-position: 100px;
         box-sizing: border-box;
         margin: 10px auto;
         background-clip: padding-box;
@@ -1042,7 +1042,7 @@ a.pinterest:hover {
     .block_sabscrabe h1 {
         background-image: url("icon/Rectangle_12.png");
         background-repeat: no-repeat;
-        background-position: 65px;
+        background-position: 60px;
         box-sizing: border-box;
         padding: 5px;
         background-clip: padding-box;
@@ -1201,7 +1201,7 @@ a.pinterest:hover {
     }
 
     .container {
-        width: 1170px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
@@ -1594,7 +1594,7 @@ a.pinterest:hover {
     }
 
     .container {
-        width: 1216px;
+        width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
